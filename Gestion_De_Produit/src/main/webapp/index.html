@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Gestion Article</title>
+</head>
+<body>
+<h1>Choix du Produit</h1>
+<form action="GestionArticle" method="post"> 
+Article : <select name="article">
+<option value='A1'>Smartphone Sumsumg J7
+<option value='A2'>Smartphone ivertec A7
+<option value='A3'>Power Bank132MA
+<option value='A4'>kit MMD 14A
+</select>
+<p>Quantité : <input type='text' name='QT'>
+<p> Tva : <input type="radio" name="tva" value="0.18" checked > 18%
+<input type="radio" name="tva" value="0.12" > 12%
+<input type="radio" name="tva" value="0.10" > 10%
+<input type="submit" value="Commander">
+<input type="reset" value="Annuler">
+
+</form>
+</body>
+</html>
